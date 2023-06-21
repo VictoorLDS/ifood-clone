@@ -62,14 +62,14 @@ export default function Perfil({ navigation }) {
 
           <TouchableOpacity style={styles.opcoesAdicionais}>
           <View style={styles.wrapper}>
-            <MaterialIcons name="store-mail-directory" size={25} color="#CDC" />
+            <MaterialIcons name="store-mall-directory" size={25} color="#CDC" />
             <Text style={styles.optionName}>Sugerir Restaurante</Text>
           </View>
           <MaterialIcons name="keyboard-arrow-right" color="#999" size={20} />
           </TouchableOpacity>
           <TouchableOpacity style={styles.opcoesAdicionais}>
           <View style={styles.wrapper}>
-            <MaterialIcons name="rocket" size={25} color="#CDC" />
+            <MaterialCommunityIcons name="rocket" size={25} color="#CDC" />
             <Text style={styles.optionName}>Seja Parceiro!</Text>
           </View>
           <MaterialIcons name="keyboard-arrow-right" color="#999" size={20} />
